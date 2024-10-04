@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ECE150 Monokai DS",
+  "version": "1.0",
+  "description": "Custom theme for ece150 @uw",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://ece.uwaterloo.ca/~ece150/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
