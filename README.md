@@ -1,6 +1,6 @@
 # ECE150 Monokai DS
 
-I made this so I can pass ECE150, it puts a checkmark when I finish complete a module.
+I made this so I can pass ECE150, it puts a checkmark when I finish a module and it's exercises.
 
 ![Preview](https://i.imgur.com/vUA10SV.png)
 
