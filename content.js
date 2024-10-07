@@ -26,7 +26,7 @@ document.querySelectorAll("tr td:first-child").forEach((td, index) => {
       }
     });
 
-    const lessonText = document.createTextNode(lessonNumber + 1);
+    const lessonText = document.createTextNode(lessonNumber);
 
     td.appendChild(checkbox);
     td.appendChild(lessonText);
